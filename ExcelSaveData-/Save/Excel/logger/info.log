@@ -1,0 +1,192 @@
+2023-06-07 18:35:58.587 [restartedMain] INFO 
+					c.E.ExcelSaveDataApplication.logStarting(55) - Starting ExcelSaveDataApplication using Java 15 on fasoftwares-Pc with PID 17669 (/home/fasoftwares/Desktop/First/ExcelSaveData-/target/classes started by fasoftwares in /home/fasoftwares/Desktop/First/ExcelSaveData-)
+2023-06-07 18:35:58.592 [restartedMain] INFO 
+					c.E.ExcelSaveDataApplication.logStartupProfileInfo(631) - No active profile set, falling back to 1 default profile: "default"
+2023-06-07 18:35:58.652 [restartedMain] INFO 
+					o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-07 18:35:58.652 [restartedMain] INFO 
+					o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-07 18:35:59.346 [restartedMain] INFO 
+					o.s.d.r.c.RepositoryConfigurationDelegate.multipleStoresDetected(262) - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-06-07 18:35:59.350 [restartedMain] INFO 
+					o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn(132) - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-06-07 18:35:59.380 [restartedMain] INFO 
+					o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate(349) - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.ExcelSaveData.repository.ExcelRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-06-07 18:35:59.380 [restartedMain] INFO 
+					o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn(201) - Finished Spring Data repository scanning in 23 ms. Found 0 JDBC repository interfaces.
+2023-06-07 18:35:59.389 [restartedMain] INFO 
+					o.s.d.r.c.RepositoryConfigurationDelegate.multipleStoresDetected(262) - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-06-07 18:35:59.391 [restartedMain] INFO 
+					o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn(132) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-07 18:35:59.415 [restartedMain] INFO 
+					o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn(201) - Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interfaces.
+2023-06-07 18:36:00.043 [restartedMain] INFO 
+					o.s.b.w.e.tomcat.TomcatWebServer.initialize(108) - Tomcat initialized with port(s): 8080 (http)
+2023-06-07 18:36:00.053 [restartedMain] INFO 
+					o.a.coyote.http11.Http11NioProtocol.log(173) - Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-07 18:36:00.053 [restartedMain] INFO 
+					o.a.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+2023-06-07 18:36:00.054 [restartedMain] INFO 
+					o.a.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-06-07 18:36:00.136 [restartedMain] INFO 
+					o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+2023-06-07 18:36:00.137 [restartedMain] INFO 
+					o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(292) - Root WebApplicationContext: initialization completed in 1484 ms
+2023-06-07 18:36:00.468 [restartedMain] INFO 
+					o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation(31) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-07 18:36:00.563 [restartedMain] INFO 
+					org.hibernate.Version.logVersion(44) - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-06-07 18:36:00.816 [restartedMain] INFO 
+					o.h.annotations.common.Version.<clinit>(56) - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-06-07 18:36:00.946 [restartedMain] INFO 
+					com.zaxxer.hikari.HikariDataSource.getConnection(110) - HikariPool-1 - Starting...
+2023-06-07 18:36:01.305 [restartedMain] INFO 
+					com.zaxxer.hikari.HikariDataSource.getConnection(123) - HikariPool-1 - Start completed.
+2023-06-07 18:36:01.331 [restartedMain] INFO 
+					org.hibernate.dialect.Dialect.<init>(175) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-07 18:36:02.011 [restartedMain] INFO 
+					o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService(52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-07 18:36:02.036 [restartedMain] INFO 
+					o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory(437) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-07 18:36:02.056 [restartedMain] INFO 
+					o.s.b.f.a.AutowiredAnnotationBeanPostProcessor.lambda$buildAutowiringMetadata$1(477) - Autowired annotation is not supported on static fields: private static final org.slf4j.Logger com.ExcelSaveData.serviceimpl.ServiceImpl.logger
+2023-06-07 18:36:02.361 [restartedMain] INFO 
+					o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy(651) - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-07 18:36:02.365 [restartedMain] INFO 
+					com.zaxxer.hikari.HikariDataSource.close(350) - HikariPool-1 - Shutdown initiated...
+2023-06-07 18:36:02.376 [restartedMain] INFO 
+					com.zaxxer.hikari.HikariDataSource.close(352) - HikariPool-1 - Shutdown completed.
+2023-06-07 18:36:02.378 [restartedMain] INFO 
+					o.a.catalina.core.StandardService.log(173) - Stopping service [Tomcat]
+2023-06-07 18:36:02.391 [restartedMain] INFO 
+					o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage(136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-06-07 18:37:06.722 [restartedMain] INFO 
+					c.E.ExcelSaveDataApplication.logStarting(55) - Starting ExcelSaveDataApplication using Java 15 on fasoftwares-Pc with PID 17792 (/home/fasoftwares/Desktop/First/ExcelSaveData-/target/classes started by fasoftwares in /home/fasoftwares/Desktop/First/ExcelSaveData-)
+2023-06-07 18:37:06.724 [restartedMain] INFO 
+					c.E.ExcelSaveDataApplication.logStartupProfileInfo(631) - No active profile set, falling back to 1 default profile: "default"
+2023-06-07 18:37:06.759 [restartedMain] INFO 
+					o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-07 18:37:06.759 [restartedMain] INFO 
+					o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-07 18:37:07.162 [restartedMain] INFO 
+					o.s.d.r.c.RepositoryConfigurationDelegate.multipleStoresDetected(262) - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-06-07 18:37:07.163 [restartedMain] INFO 
+					o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn(132) - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-06-07 18:37:07.179 [restartedMain] INFO 
+					o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate(349) - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.ExcelSaveData.repository.ExcelRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-06-07 18:37:07.180 [restartedMain] INFO 
+					o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn(201) - Finished Spring Data repository scanning in 13 ms. Found 0 JDBC repository interfaces.
+2023-06-07 18:37:07.185 [restartedMain] INFO 
+					o.s.d.r.c.RepositoryConfigurationDelegate.multipleStoresDetected(262) - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-06-07 18:37:07.186 [restartedMain] INFO 
+					o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn(132) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-07 18:37:07.203 [restartedMain] INFO 
+					o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn(201) - Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interfaces.
+2023-06-07 18:37:07.577 [restartedMain] INFO 
+					o.s.b.w.e.tomcat.TomcatWebServer.initialize(108) - Tomcat initialized with port(s): 8080 (http)
+2023-06-07 18:37:07.584 [restartedMain] INFO 
+					o.a.coyote.http11.Http11NioProtocol.log(173) - Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-07 18:37:07.585 [restartedMain] INFO 
+					o.a.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+2023-06-07 18:37:07.585 [restartedMain] INFO 
+					o.a.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-06-07 18:37:07.631 [restartedMain] INFO 
+					o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+2023-06-07 18:37:07.631 [restartedMain] INFO 
+					o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(292) - Root WebApplicationContext: initialization completed in 871 ms
+2023-06-07 18:37:07.752 [restartedMain] INFO 
+					o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation(31) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-07 18:37:07.781 [restartedMain] INFO 
+					org.hibernate.Version.logVersion(44) - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-06-07 18:37:07.882 [restartedMain] INFO 
+					o.h.annotations.common.Version.<clinit>(56) - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-06-07 18:37:07.946 [restartedMain] INFO 
+					com.zaxxer.hikari.HikariDataSource.getConnection(110) - HikariPool-1 - Starting...
+2023-06-07 18:37:08.192 [restartedMain] INFO 
+					com.zaxxer.hikari.HikariDataSource.getConnection(123) - HikariPool-1 - Start completed.
+2023-06-07 18:37:08.204 [restartedMain] INFO 
+					org.hibernate.dialect.Dialect.<init>(175) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-07 18:37:08.627 [restartedMain] INFO 
+					o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService(52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-07 18:37:08.634 [restartedMain] INFO 
+					o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory(437) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-07 18:37:08.641 [restartedMain] INFO 
+					o.s.b.f.a.AutowiredAnnotationBeanPostProcessor.lambda$buildAutowiringMetadata$1(477) - Autowired annotation is not supported on static fields: private static final org.slf4j.Logger com.ExcelSaveData.serviceimpl.ServiceImpl.logger
+2023-06-07 18:37:08.805 [restartedMain] INFO 
+					o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy(651) - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-07 18:37:08.808 [restartedMain] INFO 
+					com.zaxxer.hikari.HikariDataSource.close(350) - HikariPool-1 - Shutdown initiated...
+2023-06-07 18:37:08.815 [restartedMain] INFO 
+					com.zaxxer.hikari.HikariDataSource.close(352) - HikariPool-1 - Shutdown completed.
+2023-06-07 18:37:08.816 [restartedMain] INFO 
+					o.a.catalina.core.StandardService.log(173) - Stopping service [Tomcat]
+2023-06-07 18:37:08.826 [restartedMain] INFO 
+					o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage(136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-06-07 18:37:31.812 [restartedMain] INFO 
+					c.E.ExcelSaveDataApplication.logStarting(55) - Starting ExcelSaveDataApplication using Java 15 on fasoftwares-Pc with PID 17878 (/home/fasoftwares/Desktop/First/ExcelSaveData-/target/classes started by fasoftwares in /home/fasoftwares/Desktop/First/ExcelSaveData-)
+2023-06-07 18:37:31.814 [restartedMain] INFO 
+					c.E.ExcelSaveDataApplication.logStartupProfileInfo(631) - No active profile set, falling back to 1 default profile: "default"
+2023-06-07 18:37:31.850 [restartedMain] INFO 
+					o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-07 18:37:31.851 [restartedMain] INFO 
+					o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor.logTo(255) - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-07 18:37:32.278 [restartedMain] INFO 
+					o.s.d.r.c.RepositoryConfigurationDelegate.multipleStoresDetected(262) - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-06-07 18:37:32.279 [restartedMain] INFO 
+					o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn(132) - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-06-07 18:37:32.297 [restartedMain] INFO 
+					o.s.d.r.c.RepositoryConfigurationExtensionSupport.isStrictRepositoryCandidate(349) - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.ExcelSaveData.repository.ExcelRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-06-07 18:37:32.298 [restartedMain] INFO 
+					o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn(201) - Finished Spring Data repository scanning in 15 ms. Found 0 JDBC repository interfaces.
+2023-06-07 18:37:32.304 [restartedMain] INFO 
+					o.s.d.r.c.RepositoryConfigurationDelegate.multipleStoresDetected(262) - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-06-07 18:37:32.305 [restartedMain] INFO 
+					o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn(132) - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-07 18:37:32.323 [restartedMain] INFO 
+					o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn(201) - Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+2023-06-07 18:37:32.711 [restartedMain] INFO 
+					o.s.b.w.e.tomcat.TomcatWebServer.initialize(108) - Tomcat initialized with port(s): 8080 (http)
+2023-06-07 18:37:32.717 [restartedMain] INFO 
+					o.a.coyote.http11.Http11NioProtocol.log(173) - Initializing ProtocolHandler ["http-nio-8080"]
+2023-06-07 18:37:32.717 [restartedMain] INFO 
+					o.a.catalina.core.StandardService.log(173) - Starting service [Tomcat]
+2023-06-07 18:37:32.718 [restartedMain] INFO 
+					o.a.catalina.core.StandardEngine.log(173) - Starting Servlet engine: [Apache Tomcat/9.0.75]
+2023-06-07 18:37:32.768 [restartedMain] INFO 
+					o.a.c.c.C.[Tomcat].[localhost].[/].log(173) - Initializing Spring embedded WebApplicationContext
+2023-06-07 18:37:32.768 [restartedMain] INFO 
+					o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext(292) - Root WebApplicationContext: initialization completed in 917 ms
+2023-06-07 18:37:32.894 [restartedMain] INFO 
+					o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation(31) - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-07 18:37:32.922 [restartedMain] INFO 
+					org.hibernate.Version.logVersion(44) - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-06-07 18:37:33.020 [restartedMain] INFO 
+					o.h.annotations.common.Version.<clinit>(56) - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-06-07 18:37:33.085 [restartedMain] INFO 
+					com.zaxxer.hikari.HikariDataSource.getConnection(110) - HikariPool-1 - Starting...
+2023-06-07 18:37:33.307 [restartedMain] INFO 
+					com.zaxxer.hikari.HikariDataSource.getConnection(123) - HikariPool-1 - Start completed.
+2023-06-07 18:37:33.318 [restartedMain] INFO 
+					org.hibernate.dialect.Dialect.<init>(175) - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-06-07 18:37:33.681 [restartedMain] INFO 
+					o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService(52) - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-07 18:37:33.695 [restartedMain] INFO 
+					o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory(437) - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-07 18:37:33.702 [restartedMain] INFO 
+					o.s.b.f.a.AutowiredAnnotationBeanPostProcessor.lambda$buildAutowiringMetadata$1(477) - Autowired annotation is not supported on static fields: private static final org.slf4j.Logger com.ExcelSaveData.serviceimpl.ServiceImpl.logger
+2023-06-07 18:37:33.870 [restartedMain] INFO 
+					o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy(651) - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-07 18:37:33.873 [restartedMain] INFO 
+					com.zaxxer.hikari.HikariDataSource.close(350) - HikariPool-1 - Shutdown initiated...
+2023-06-07 18:37:33.880 [restartedMain] INFO 
+					com.zaxxer.hikari.HikariDataSource.close(352) - HikariPool-1 - Shutdown completed.
+2023-06-07 18:37:33.883 [restartedMain] INFO 
+					o.a.catalina.core.StandardService.log(173) - Stopping service [Tomcat]
+2023-06-07 18:37:33.892 [restartedMain] INFO 
+					o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage(136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.

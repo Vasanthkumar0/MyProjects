@@ -1,0 +1,57 @@
+2023-06-07 18:36:02.422 [restartedMain] ERROR
+				o.s.b.d.LoggingFailureAnalysisReporter.report(40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method saveExcelData in com.ExcelSaveData.controller.Controll required a bean of type 'org.springframework.web.multipart.MultipartFile' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.web.bind.annotation.RequestParam(name="", value="file", required=true, defaultValue="\n\t\t\n\t\t\n\ue000\ue001\ue002\n\t\t\t\t\n")
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.web.multipart.MultipartFile' in your configuration.
+
+2023-06-07 18:37:08.843 [restartedMain] ERROR
+				o.s.b.d.LoggingFailureAnalysisReporter.report(40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method saveExcelData in com.ExcelSaveData.controller.Controll required a bean of type 'org.springframework.web.multipart.MultipartFile' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.web.bind.annotation.RequestParam(name="", value="file", required=true, defaultValue="\n\t\t\n\t\t\n\ue000\ue001\ue002\n\t\t\t\t\n")
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.web.multipart.MultipartFile' in your configuration.
+
+2023-06-07 18:37:33.907 [restartedMain] ERROR
+				o.s.b.d.LoggingFailureAnalysisReporter.report(40) - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method saveExcelData in com.ExcelSaveData.controller.Controll required a bean of type 'org.springframework.web.multipart.MultipartFile' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.web.bind.annotation.RequestParam(name="", value="file", defaultValue="\n\t\t\n\t\t\n\ue000\ue001\ue002\n\t\t\t\t\n", required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.web.multipart.MultipartFile' in your configuration.
+
